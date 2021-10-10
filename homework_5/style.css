@@ -1,0 +1,335 @@
+body {
+	margin: 10px 40px; 
+	font-family: "Poppins", sans-serif;
+	color: #200B05;
+}
+
+h1 {
+	color: #7C3F2C;
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 0.4px;
+}
+
+#logoLogo {
+	width: 100%;
+}
+
+#topContainer {
+	display: flex;
+}
+
+.logoImage {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	width: 500px; 
+}
+
+a:link {
+	color: #200B05;
+	text-decoration: none;
+}
+
+.active, .home {
+	color: #7C3F2C;
+}
+
+.active, .shop {
+	color: #7C3F2C;
+}
+
+a {
+	color: #200B05;
+}
+
+.menuBar {
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+	width: 900px;
+	justify-content: space-between;
+	font-size: 19px;
+	letter-spacing: 0.2px;
+}
+
+#home {
+	font-size: 19px;
+	font-weight: 700;
+	color: #7C3F2C;
+}
+
+#shop {
+	font-size: 19px;
+	font-weight: 700;
+	color: #7C3F2C;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ourStory {
+	margin-top: 10px;
+	font-size: 19px;
+	font-weight: 600;
+	height: 50px;
+}
+
+#shoppingCartLogo {
+	width: 100%;
+}
+
+.shoppingCart {
+	width: 30px;
+	height: 30px;
+}
+
+#image {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.frontImage {
+	display: block;
+	background-image: url("https://lh3.google.com/u/1/d/14wSNEwEGvNyEKnV9q3AIqVnKJ3SdozVK=w2880-h1578-iv1");
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	min-height: 600px;
+}
+
+.shopNowButton {
+	position: absolute;
+	right: 100px;
+	bottom: 200px;
+}
+
+#line {
+	width: 100%;
+}
+
+.divider {
+	margin: 0 auto;
+	width: 20%;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 50px;
+}
+
+.productName {
+	font-size: 21px;
+	font-weight: 600;
+	max-height: 40px;
+}
+
+
+#content {
+	width: 80%;
+	line-height: 2.2;
+	font-size: 16px;
+	text-align: justify;
+	margin-top: 0px;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 45px;
+}
+
+.product-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 16px;
+	margin: 5px auto;
+	letter-spacing: 0.7px;
+}
+
+h5 {
+	font-weight: 400;
+	font-size: 16px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	opacity: 70%;
+	letter-spacing: 0.2px;
+}
+
+.goBack {
+	margin-top: 15px;
+}
+
+.productImageDiv {
+	margin-top: 20px;
+	display: inline-block;
+	width: 35%;
+	margin-left: 30px;
+}
+
+.productImageDiv img {
+	display: inline-block;
+	width: 100%;
+}
+
+.product img {
+	display: inline-block;
+	width: 100%;
+}
+
+.options {
+	margin-left: 230px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.topRow {
+	display: flex;
+	flex-direction: row;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+}
+
+.body {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.price {
+	font-weight: 400;
+	font-size: 19px;
+	margin-top: 3px;
+	margin-bottom: 16px;
+	opacity: 70%;
+}
+
+h6 {
+	font-weight: 400;
+	font-size: 19px;
+}
+
+.star {
+	width: 80%;
+}
+
+.rating {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 5px;
+}
+
+.number {
+	margin-left: 10px;
+	font-weight: 400;
+	font-size: 16px;
+	opacity: 70%;
+}
+
+.quantity {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 90px;
+}
+
+.glazing {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 30px;
+}
+
+.quantity img {
+	width: 226.67px;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.glazing img {
+	width: 226.67px;
+	height: 40px;
+	margin-left: 30px;
+}
+
+.addToCart {
+	width: 250px;
+	height: 50px;
+	margin: 50px 0;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.description img {
+	margin-bottom: 50px;
+}
+
+.section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.section img {
+	width: 3.5%;
+}
+
+.fourSections {
+	margin-top: 30px;
+}
+
+.overview {
+	font-weight: 600;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 2.2;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.overviewTitle {
+	font-weight: 400;
+	font-size: 17px;
+	height: 40px;
+	letter-spacing: 1px;
+}
