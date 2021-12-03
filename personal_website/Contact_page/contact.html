@@ -16,7 +16,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<nav>
   <div class="scrollUpBtn">
     <i class="fa fa-angle-up"></i>
   </div>
@@ -29,7 +29,9 @@
       <i class="fa fa-bars"></i>
     </div>
   </div>
+</nav>
 
+<main>
   <div class="row contact">
     <h1> Want to know more about me? </h1>
     <p> please feel free to message me! </p>
@@ -39,24 +41,30 @@
     <form action="#">
       <div class="fields">
         <div class="field name">
-          <input type="text" placeholder="Name" required>
+          <input type="text" id="name" placeholder="Name" required>
+          <label for="name"></label>
         </div>
         <div class="field emailInput">
-          <input type="email" placeholder="Email" required>
+          <input type="email" id="email" placeholder="Email" required>
+          <label for="email"></label>
         </div>
       </div>
       <div class="field subject">
-        <input type="text" placeholder="Subject" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <label for="subject"></label>
       </div>
       <div class="field textarea">
-        <textarea cols="30" rows="10" placeholder="Say anything in your mind.." required></textarea>
+        <textarea cols="30" rows="10" id="textArea" placeholder="Say anything in your mind.." required></textarea>
+        <label for="textArea"></label>
       </div>
       <div class="button">
         <button type="submit">Send message</button>
       </div>
     </form>
   </div>
+</main>
 
+<footer>
   <div class="row email">
     <p> pinyangl@andrew.cmu.edu </p>
   </div>
@@ -65,4 +73,4 @@
   <script>
     AOS.init();
   </script>
-</body>
+</footer>
